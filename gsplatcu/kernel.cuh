@@ -4,7 +4,7 @@
  * For the full license information, please view the LICENSE file.
  */
 
-#include <torch/extension.h>
+#include <torch/torch.h>
 #include "common.cuh"
 
 inline __device__ void fetch2shared(
